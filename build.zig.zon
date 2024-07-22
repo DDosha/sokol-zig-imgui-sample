@@ -9,6 +9,9 @@
         .cimgui = .{
             .path = "deps/cimgui",
         },
+        .cimguizmo = .{
+            .path = "deps/cimguizmo",
+        },
     },
     .paths = .{""},
 }

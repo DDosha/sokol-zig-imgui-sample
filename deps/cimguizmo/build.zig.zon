@@ -1,0 +1,22 @@
+.{
+    .name = "cimguizmo",
+    .version = "0.0.0",
+
+    .dependencies = .{
+        .cimgui = .{
+            .url = "git+https://github.com/cimgui/cimgui.git#1.90.7",
+            .hash = "1220d925a8374fbc3a21a5b46025fb867672d85b4099d2151bed607618e08b0cd71c",
+        },
+        .imgui = .{
+            .url = "git+https://github.com/ocornut/imgui.git#v1.90.7",
+            .hash = "122072b125179c7cbdbbee8fa81d22a1050a950ad61cfeefee8dc0dca5423b5d05b9",
+        },
+
+        .cimguizmo = .{ .url = "git+https://github.com/cimgui/cimguizmo#master", .hash = "1220732d4f4c72d5c96e42cff02416ca5a79d2711048000e7715abeb77fddeaae41c" },
+
+        .imguizmo = .{ .url = "git+https://github.com/CedricGuillemet/ImGuizmo#master", .hash = "12203fc70cae3025e1c6f48f9d52b6a4a8d3bea336963a9d88db543dd09eaccf6036" },
+    },
+    .paths = .{
+        "",
+    },
+}
